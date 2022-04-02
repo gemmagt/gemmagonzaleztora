@@ -7,7 +7,7 @@ function Introduction() {
         Gemma Gonzalez-Tora
       </div>      
       <div className="introduction-subtitle">
-        Martin is a patata
+        Gemma is a patata
       </div>
     </div>
   );
