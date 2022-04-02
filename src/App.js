@@ -1,15 +1,25 @@
 import Introduction from "./components/introduction";
 import Gallery from "./components/gallery";
 import Publications from "./components/publications";
+import { Routes, Route} from "react-router-dom";
+import Header from "./components/header";
+import { Layout, Row, Col } from 'antd';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Introduction/>
-      <Publications/>
-      <Gallery/>
-    </div>
+  return ( 
+    <Layout>
+    <Row style={{width:"100%", height:"100%"}}>
+    <Col span={24}>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<Introduction />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="publications" element={<Publications />} />
+        </Routes>
+        </Col>
+    </Row>
+    </Layout>
   );
 }
 
