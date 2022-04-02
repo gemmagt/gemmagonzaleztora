@@ -10,7 +10,7 @@ function Header() {
     <PageHeader
       ghost={true}
       title="Gemma Gonzalez-Tora"
-      subTitle="This is a subtitle"
+      subTitle="My personal webpage"
       extra={[
         <Link to="/"><Button type={location.pathname==="/"? "primary" : ""}>Introduction</Button></Link>,
         <Link to="/gallery"><Button type={location.pathname==="/gallery"? "primary" : ""}>Gallery</Button></Link>,
