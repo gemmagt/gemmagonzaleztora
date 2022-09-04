@@ -19,7 +19,7 @@ function Introduction() {
         </Col>
         <Col span={10}>
           <div className="introduction-subtitle">
-            Welcome! This is the homepage of Gemma Gonzalez-Tora.
+            Welcome! This is the homepage of Gemma Gonzalez-Tora. Hola
           </div>
         </Col>
       </Row>

@@ -1,6 +1,7 @@
 import Introduction from "./components/introduction";
 import Gallery from "./components/gallery";
 import Publications from "./components/publications";
+import Research from "./components/research";
 import { Routes, Route} from "react-router-dom";
 import Header from "./components/header";
 import { Layout, Row, Col } from 'antd';
@@ -14,6 +15,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Introduction />} />
+          <Route path="research" element={<Research />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="publications" element={<Publications />} />
         </Routes>

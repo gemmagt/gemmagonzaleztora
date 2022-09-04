@@ -12,7 +12,7 @@ function Research() {
         </Col>
       </Row>
 
-    </>
+     </>
   );
 }
 
