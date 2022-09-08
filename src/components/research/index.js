@@ -10,6 +10,11 @@ function Research() {
           <div className="research-title">
            Here is my CV
           </div>    
+          <ul title="Llista compra"> 
+          Hola
+            <li>Patata</li>
+            <li>Poma</li>
+          </ul>  
         </Col>
       </Row>
 
