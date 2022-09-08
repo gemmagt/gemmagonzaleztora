@@ -5,7 +5,7 @@ function Publications() {
   const data=[
       {
       title: "The effect of winds on atmospheric layers of red supergiants, I. Modeling for interferometric observations",
-      subtitle: "Gonzalez-Tora et al. 2022  A&A, Volume 658, id.A117, 8 pp.",
+      subtitle: "Gonzalez-Tora et al. 2022  Submitted to A&A",
       link: "https://drive.google.com/file/d/1FkdycPsETWXm9qVgq9-7pXtCsuH7h54X/view?usp=sharing"
     },
     {
