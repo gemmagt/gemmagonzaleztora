@@ -3,6 +3,11 @@ import { List, Button, Row, Col} from 'antd';
 
 function Publications() {
   const data=[
+      {
+      title: "The effect of winds on atmospheric layers of red supergiants, I. Modeling for interferometric observations",
+      subtitle: "Gonzalez-Tora et al. 2022  A&A, Volume 658, id.A117, 8 pp.",
+      link: "https://drive.google.com/file/d/1FkdycPsETWXm9qVgq9-7pXtCsuH7h54X/view?usp=sharing"
+    },
     {
       title: "MUSE crowded field 3D spectroscopy in NGC 300. II. Quantitative spectroscopy of BA-type supergiants",
       subtitle: "Gonzalez-Tora et al. 2022  A&A, Volume 658, id.A117, 8 pp.",
