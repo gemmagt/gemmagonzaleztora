@@ -1,5 +1,5 @@
 import Introduction from "./components/introduction";
-import Gallery from "./components/gallery";
+//import Gallery from "./components/gallery";
 import Publications from "./components/publications";
 import Research from "./components/research";
 import { Routes, Route} from "react-router-dom";
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Introduction />} />
           <Route path="research" element={<Research />} />
-          <Route path="gallery" element={<Gallery />} />
+
           <Route path="publications" element={<Publications />} />
         </Routes>
         </Col>
@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App;
+          // <Route path="gallery" element={<Gallery />} />

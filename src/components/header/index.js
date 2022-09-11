@@ -13,10 +13,10 @@ function Header() {
       subTitle="My personal webpage"
       extra={[
         <Link to="/"><Button type={location.pathname==="/"? "primary" : ""}>Introduction</Button></Link>,
+      //  <Link to="/gallery"><Button type={location.pathname==="/gallery"? "primary" : ""}>Gallery</Button></Link>,
         <Link to="/research"><Button type={location.pathname==="/research"? "primary" : ""}>
           Research
         </Button></Link>,
-        <Link to="/gallery"><Button type={location.pathname==="/gallery"? "primary" : ""}>Gallery</Button></Link>,
         <Link to="/publications"><Button type={location.pathname==="/publications"? "primary" : ""}>
           Publications
         </Button></Link>,

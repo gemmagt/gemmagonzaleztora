@@ -21,7 +21,14 @@ function Introduction() {
         </Col>
         <Col span={10}>
           <div className="introduction-subtitle">
-            Welcome! This is the homepage of Gemma Gonzalez-Tora. Hola
+            Welcome! I am Gemma Gonzalez-Tora, currently a PhD student at the European Southern Observatory 
+            (ESO) in Garching and at the Astrophysical Research Institute (ARI) of the Liverpool John Moores University
+            (LJMU). I am studying the extended atmosphere of red supergiants, which are evolved massive stars around 
+            1000 times bigger than the Sun and 10 times heavier! In my free time, I like reading and writing fantasy books,
+            sightseeing beautiful landmarks and eating delicious food. 
+          </div>
+          <div className="contact">
+          Contact me at: gemma.gonzalezitora at eso.org
           </div>
         </Col>
       </Row>

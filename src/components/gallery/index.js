@@ -22,7 +22,7 @@ const images = [
 function Gallery() {
   return (
     <div>
-      patata
+      Some images of my outreach and conference talks
       <ImageGallery items={images} showFullscreenButton={false} />
     </div>
   );

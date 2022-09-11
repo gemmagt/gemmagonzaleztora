@@ -6,5 +6,10 @@
 
 .introduction-subtitle{
 	color:  black;
+	font-size: 32px; 
+}
+
+.contact{
+	color:  gray;
 	font-size: 36px; 
 }
