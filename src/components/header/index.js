@@ -17,8 +17,14 @@ function Header() {
         <Link to="/research"><Button type={location.pathname==="/research"? "primary" : ""}>
           Research
         </Button></Link>,
+        <Link to="/CV"><Button type={location.pathname==="/CV"? "primary" : ""}>
+          CV
+        </Button></Link>,
         <Link to="/publications"><Button type={location.pathname==="/publications"? "primary" : ""}>
           Publications
+        </Button></Link>,
+        <Link to="/outreach"><Button type={location.pathname==="/outreach"? "primary" : ""}>
+          Outreach
         </Button></Link>,
       ]}
     />
